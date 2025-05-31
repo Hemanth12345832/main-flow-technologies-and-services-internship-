@@ -1,0 +1,119 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body, html {
+    font-family: 'Segoe UI', sans-serif;
+    height: 100%;
+}
+
+.hero {
+    background: linear-gradient(rgba(0, 0, 0, 0.3), rgba(0, 0, 0, 0.3)),
+    url('https://static.toiimg.com/thumb/msid-112019658,width-1280,height-720,resizemode-4/112019658.jpg') no-repeat center center/cover;
+    height: 100vh;
+    color: #edeceb;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+}
+
+nav {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 20px 80px;
+}
+.logo {
+    font-size: 28px;
+    font-weight: bold;
+    color: rgb(193, 12, 230);
+}
+.logo span {
+    color: rgb(193, 12, 230);
+}
+nav ul {
+    list-style: none;
+    display: flex;
+    gap: 30px;
+}
+
+nav ul li a {
+    text-decoration: none;
+    color: #e8e7ed;
+    font-size: 1.1rem;
+    transition: color 0.3s ease;
+}
+
+nav ul li a:hover {
+    color: #dd9fae;
+}
+
+.content {
+    text-align: center;
+    margin-bottom: 1100px;
+}
+
+.content h1 {
+    font-size: 3rem;
+    margin-bottom: 10px;
+}
+
+.content h1 span {
+    color: #b025cf;
+}
+
+.content p {
+    font-size: 1.2rem;
+    margin-bottom: 30px;
+}
+
+.btn {
+    background-color: #47fffc;
+    color: white;
+    padding: 15px 30px;
+    text-decoration: none;
+    font-size: 1rem;
+    border-radius: 30px;
+    transition: 0.3s ease;
+}
+
+.btn:hover {
+    background-color: white;
+    color: #0c19ce;
+    box-shadow: 0 0 15px rgba(0, 0, 0, 0.3);
+}
+.footer {
+    background-color: #371dcb;
+    color: white;
+    text-align: center;
+    padding: 20px 0;
+}
+.section {
+    margin-top: 20px;
+}
+.flavor-buttons {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 25px;
+  justify-content: center;
+  margin-top: 30px;
+}
+
+.flavor-buttons button {
+  background-color: rgb(189, 12, 220);
+  color: rgb(248, 248, 249);
+  padding: 12px 24px;
+  font-size: 16px;
+  border: none;
+  border-radius: 30px;
+  cursor: pointer;
+  transition: 0.3s ease;
+}
+
+.flavor-buttons button:hover {
+  background-color: white;
+  color: rgb(216, 12, 220);
+  box-shadow: 0 0 10px rgba(216, 12, 220, 0.6);
+}
